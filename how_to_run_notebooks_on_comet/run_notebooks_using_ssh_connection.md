@@ -10,6 +10,7 @@ Goal: Learn how to run/edit a jupyter notebook on comet using Python notebooks
 * 04/16/2020: Comet supported singularity images are located in 
    * /share/apps/gpu/singularity 
    * /share/apps/compute/singularity 
+* In December, 2019, the OS on Comet was converted to CentOS. See this document for relevant change information: https://www.sdsc.edu/services/hpc/comet_upgrade.html
 
 * Log onto comet.sdsc.edu  
 ```
@@ -73,11 +74,8 @@ The command we need to run to fire up a notebook is the `ipython` command. You c
 
 There are pros and cons for choosing your own installation (you can customize it and maintain it), or choosing the system version -- it will always work, and will be updated as other software dependencies change. For these examples, we will use the _system supported_ version.
 
-The next step is to load the singularity module that knows about system wide supported jupyter notebooks and then load a singularity image. Note that by default the version of `ipython` is a local installation in my home directory.
+By default, singularity is included in your path, so it no longer needs to be loaded.
 ```
-(base) [mthomas@comet-14-03:~/comet101] which ipython
-~/miniconda3/bin/ipython
-(base) [mthomas@comet-14-03:~/comet101] module load singularity
 (base) [mthomas@comet-14-03:~/comet101] which ipython
 ~/miniconda3/bin/ipython
 ```
