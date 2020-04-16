@@ -23,7 +23,6 @@ srun: job 24000544 has been allocated resources
 Wait for your node to be allocated.
 Load the singularity module that knows about jupyter notebooks and get an interactive shell
 ```
-module load singularity
 singularity shell /share/apps/gpu/singularity/sdsc_ubuntu_tf1.1_keras_R.img
 ```
 Check out the Readme.md file, it will explaing what is in the different notebooks.
