@@ -2,15 +2,22 @@
  
 ## Running Jupyter Notebooks On Comet using SSH connection
 ### by Mary Thomas, mpthomas @ ucsd.edu
+### Last Updated:  04/16/2020
 
 Goal: Learn how to run/edit a jupyter notebook on comet using Python notebooks 
-### Note: 
-* For this notebook, we will use Singularity containers to run a notebook on Comet. 
-* For details, see the Comet User Guide notes on [Using Singularity on Comet](https://www.sdsc.edu/support/user_guides/comet.html#singularity)
+
+* For this tutorial, we will 
+   * Use Singularity containers to run a tutorial on Comet. 
+   * Execute the notebook on an interactive node. See:
+      * https://github.com/sdsc-hpc-training/basic_skills/tree/master/interactive_computing
+   * For details, see the Comet User Guide notes on [Using Singularity on Comet](https://www.sdsc.edu/support/user_guides/comet.html#singularity)
+
 * 04/16/2020: Comet supported singularity images are located in 
    * /share/apps/gpu/singularity 
    * /share/apps/compute/singularity 
-* In December, 2019, the OS on Comet was converted to CentOS. See this document for relevant change information: https://www.sdsc.edu/services/hpc/comet_upgrade.html
+* In December, 2019, the OS on Comet was converted to CentOS. 
+See this document for relevant change information: 
+   * https://www.sdsc.edu/services/hpc/comet_upgrade.html
 
 * Log onto comet.sdsc.edu  
 ```
